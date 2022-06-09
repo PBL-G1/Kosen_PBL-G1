@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.top{
+    padding-top:10px;
+    padding-left:10px;
+    font-size:40px;
+    font-family:serif;
+    background: linear-gradient(#5EFCE8, #736EFE);
+}
+
+.id{
+    text-align:center;
+    padding-top:100px;
+    font-size:25px;
+}
+
+.password{
+    text-align:center;
+    padding-top:50px;
+    font-size:25px;
+}
+
+input{
+    width:20em;
+    height:2em;
+}
+
+.button{
+    text-align:center;
+    padding-top:50px;
+}
+
+button{
+    width:8em;
+    height:3em;
+    background-color:rgb(173, 17, 17);
+    color:white;
+    border-radius:5px;
+}
+
+button:hover{ 
+    background-color:skyblue; 
+}
