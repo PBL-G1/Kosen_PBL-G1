@@ -1,79 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang = " ja ">
     <head>
         <title>教科選択</title>
         <meta charset="UTF-8">
 
         <!--CSS-->
         <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+
+            h1{
+                margin:40pt 10pt;
+            }
+
+            h2{
+                margin:20pt 10pt; 
+            }
+
+            body{
+                background: rgb(200, 200, 200);
+            }
+
             a{
                 text-decoration: none;
             }
 
-            h1{
-                color: orange;
+            ul{
+                list-style: none;
+            }
+
+            #GradeChange{
+                margin:20pt 10pt; 
             }
 
             .SubjectSelect{
                 padding: 0.5em 1em;
-                margin: 2em 0;
-                color: #5d627b;
+                
+                width: 70%;
+                margin:0 0 10% auto;
                 background: rgb(241, 230, 230);
                 border-top: solid 5px #5d627b;
                 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
             }
-            .SubjectSelect p a{
-                font-size: 15pt;
+            .SubjectSelect ul a{
+                color: #E66496;
+                font-size: 20px;
+                margin: 10;
             }
 
-            .SubjectSelect p a:hover{
-                color: #FF0000;
-	font-size: 20px;
-	font-weight: bold;
+            .SubjectSelect ul a:hover{
+                color: #F66496;
+	            font-size: 22px;
+	            font-weight: bold;
+            }
+
+            .UnderLine{
+                border-bottom: 1px solid #F68496;
+                width: 100%;
+                margin: 5px auto;
             }
         </style>
+        <!--CSS　ここまで-->
     </head>
 
     <body>
-        <h1>教科選択</h1>
+        <h1><a href="https://html5boilerplate.com/">ここにロゴ</a></h1>
+        <h2>教科選択[4年生]</h2>
+        <div id="GradeChange"><a href="https://html5boilerplate.com/">全学年版へ</a></div>
 
         <div class="SubjectSelect">
-            <p>
-                <a href="https://html5boilerplate.com/">工業所有権基礎</a><br>
-                <a href="https://html5boilerplate.com/">国語IV</a><br>
-                <a href="https://html5boilerplate.com/">総合英語Ⅰ・Ⅱ</a><br>
-                <a href="https://html5boilerplate.com/">政治経済</a><br>
-                <a href="https://html5boilerplate.com/">法学憲法</a><br>
-                <a href="https://html5boilerplate.com/">人文科学</a><br>
-                <a href="https://html5boilerplate.com/">フランス語</a><br>
-                <a href="https://html5boilerplate.com/">化学特論</a><br>
-                <a href="https://html5boilerplate.com/">健康とスポーツ</a><br>
-                <a href="https://html5boilerplate.com/">融合型PBL</a><br>
-                <a href="https://html5boilerplate.com/">電磁気学</a><br>
-                <a href="https://html5boilerplate.com/">電子回路</a><br>
-                <a href="https://html5boilerplate.com/">電子デバイス</a><br>
-                <a href="https://html5boilerplate.com/">電子計測</a><br>
-                <a href="https://html5boilerplate.com/">機構学</a><br>
-                <a href="https://html5boilerplate.com/">無線技術特論ⅠA[高周波回路]</a><br>
-                <a href="https://html5boilerplate.com/">無線技術特論ⅠB[電磁波工学Ⅰ]</a><br>
-                <a href="https://html5boilerplate.com/">無線技術特論ⅠB[電磁波工学Ⅱ]</a><br>
-                <a href="https://html5boilerplate.com/">電子材料</a><br>
-                <a href="https://html5boilerplate.com/">マイクロコンピューター応用</a><br>
-                <a href="https://html5boilerplate.com/">電子機器設計基礎</a><br>
-                <a href="https://html5boilerplate.com/">制御工学</a><br>
-                <a href="https://html5boilerplate.com/">情報理論</a><br>
-                <a href="https://html5boilerplate.com/">ソフトウェア分析設計</a><br>
-                <a href="https://html5boilerplate.com/">ソフトウェア工学基礎</a><br>
-                <a href="https://html5boilerplate.com/">マルチメディア情報</a><br>
-                <a href="https://html5boilerplate.com/">ネットワーク理論</a><br>
-                <a href="https://html5boilerplate.com/">データ工学</a><br>
-                <a href="https://html5boilerplate.com/">ネットワーキング技術</a><br>
-                <a href="https://html5boilerplate.com/">ネットワークプログラミング</a><br>
-                <a href="https://html5boilerplate.com/">情報セキュリティ</a><br>
-                <a href="https://html5boilerplate.com/">線形代数</a><br>
-                <a href="https://html5boilerplate.com/">フーリエ解析</a><br>
-                <a href="https://html5boilerplate.com/">複素関数</a><br>
-            </p>
+            <ul>
+                <li><a href="https://html5boilerplate.com/">工業所有権基礎</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">国語IV</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">総合英語Ⅰ・Ⅱ</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">政治経済</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">法学憲法</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">人文科学</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">フランス語</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">化学特論</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">健康とスポーツ</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">融合型PBL</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電磁気学</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電子回路</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電子デバイス</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電子計測</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">機構学</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">無線技術特論ⅠA[高周波回路]</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">無線技術特論ⅠB[電磁波工学Ⅰ]</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">無線技術特論ⅠB[電磁波工学Ⅱ]</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電子材料</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">マイクロコンピューター応用</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">電子機器設計基礎</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">制御工学</a></li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">情報理論</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">ソフトウェア分析設計</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">ソフトウェア工学基礎</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">マルチメディア情報</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">ネットワーク理論</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">データ工学</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">ネットワーキング技術</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">ネットワークプログラミング</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">情報セキュリティ</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">線形代数</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">フーリエ解析</a><li><div class="UnderLine"></div>
+                <li><a href="https://html5boilerplate.com/">複素関数</a><li><div class="UnderLine"></div>
+            </ul>
         </div>
     </body>
 </html>
