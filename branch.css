@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+.Subject p {
+    border: 6px double rgb(175, 175, 175);
+    background-color: rgb(105, 105, 255);
+    font-size: 25px;
+    margin: 10px 50px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.Past_paper {
+    border: 6px double rgb(175, 175, 175);
+    background-color: rgb(255, 225, 205);
+    width: 900px; 
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.Past_paper h2 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.Past_paper ol {
+    margin-left: 30px;
+}
+
+.Past_paper ol li {
+    font-size: 15px;
+}
+
+.Bulletin_board {
+    border: 6px double rgb(175, 175, 175);
+    background-color: rgb(255, 225, 205);
+    width: 900px; 
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.Bulletin_board h2 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.Bulletin_board ul {
+    margin-left: 30px;
+}
+
+.Bulletin_board ul li {
+    font-size: 15px;
+}
+
+;
