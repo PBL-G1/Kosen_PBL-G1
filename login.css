@@ -10,29 +10,26 @@
     background: linear-gradient(#5EFCE8, #736EFE);
 }
 
-.id{
+.middle{
     text-align:center;
-    padding-top:100px;
-    font-size:25px;
 }
 
-.password{
-    text-align:center;
-    padding-top:50px;
-    font-size:25px;
-}
-
-input{
+.forms{
     width:20em;
     height:2em;
 }
 
-.button{
-    text-align:center;
+.text{
+    display: inline-block;
+    padding-top:50px;
+    font-size:25px;
+}
+
+.login{
     padding-top:50px;
 }
 
-button{
+input[type="submit"]{
     width:8em;
     height:3em;
     background-color:rgb(173, 17, 17);
@@ -40,6 +37,6 @@ button{
     border-radius:5px;
 }
 
-button:hover{ 
+input[type="submit"]:hover{ 
     background-color:skyblue; 
 }
