@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color:pink;
+}
+
+.middle{
+    text-align:center;
+    padding-top:100px;
+    line-height:40px;
+}
+
+.bottom{
+    text-align:center;
+    padding-top:300px;
+}
+
