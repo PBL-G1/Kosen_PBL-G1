@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0px;
     padding:0px;
@@ -15,3 +16,22 @@
     padding-top:300px;
 }
 
+=======
+*{
+    margin:0px;
+    padding:0px;
+    background-color:pink;
+}
+
+.middle{
+    text-align:center;
+    padding-top:100px;
+    line-height:40px;
+}
+
+.bottom{
+    text-align:center;
+    padding-top:300px;
+}
+
+>>>>>>> 29804b4a0fbf7fd8acec090a1ec60415b3ec4d87
