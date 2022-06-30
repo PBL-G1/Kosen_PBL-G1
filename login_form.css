@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.top{
+    padding-left:10px;
+    font-size:50px;
+    font-family:serif;
+    background-color:rgb(92, 92, 177);
+}
+
+.middle{
+    text-align:center;
+    background-color:lightblue;
+}
+
+.bottom{
+    padding-top:20px;
+    line-height:30px;
+    text-align:center;
+}
+
+.forms{
+    width:20em;
+    height:2em;
+}
+
+.text{
+    display: inline-block;
+    padding-top:50px;
+    font-size:25px;
+}
+
+.login{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+input[type="submit"]{
+    width:8em;
+    height:3em;
+    background-color:rgb(173, 17, 17);
+    color:white;
+    border-radius:5px;
+}
+
+input[type="submit"]:hover{ 
+    background-color:skyblue; 
+}
