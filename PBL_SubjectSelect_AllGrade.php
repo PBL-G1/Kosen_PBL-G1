@@ -108,6 +108,7 @@
             </form>
             <div id="GradeChange"><a href=javascript:document.fGC.submit()>➣同学年版</a></div>
         </nav>
+        
         <div id="subList"><!--右側-->
         <div class="SubjectSelect">
             <ul>

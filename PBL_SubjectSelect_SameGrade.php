@@ -8,7 +8,6 @@
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_EMULATE_PREPARES => false,
     ];
-
     try {
         $pdo = new PDO($dsn, $db_user, $db_pass, $driver_options);
     } catch (PDOException $e) {
