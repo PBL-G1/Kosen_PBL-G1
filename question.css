@@ -1,9 +1,12 @@
 body{text-align: center}
-body{background-color: #d5ecf3;}
-
+body{background-color: lightblue;}
 .question{text-align:left;
     margin:0 auto;
     width: 600px;
     height: auto;
+}
+
+footer{
+    background-color: white;
 }
     
