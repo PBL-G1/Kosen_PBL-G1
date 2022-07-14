@@ -1,6 +1,8 @@
 <?php
+    //仮作成
+    //科目のコード
     $kamoku_mei = array( '国語', '算数', '理科');
-    $age = 1;
+    $subject_list = array ( 'a', 'b', 'c');
 ?>
 <!DOCTYPE html>
 <html lang = "ja">
@@ -12,12 +14,13 @@
     <body>
         <h1>
             <?PHP
+            //仮POST
                 print( $kamoku_mei[ $_GET['kamoku']]);
             ?>
         </h1>
         <nav class = "sidebar">
             <ul>
-                <li><a href="q">化学</a></li>
+                <li><a href="<?php $subject_list[1] ?>">化学</a></li>
                 <li><a href="a">国語</a></li>
                 <li><a href="w">電気回路(基礎)・電子回路</a></li>
                 <li><a href="s">物理</a></li>    
@@ -51,4 +54,9 @@
             </nav>
         </div>
     </body>
+    <footer>
+        <a href = https://www.sendai-nct.ac.jp>仙台高専</a><br>
+        <a href = https://www.sendai-nct.ac.jp/sclife/kyuko/ku_hirose>休講情報</a><br>
+        <a href = https://bb.kosen-ac.jp>ブラックボード</a>
+    </footer>
 </html>
