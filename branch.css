@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+    background-color: lightblue;
+}
+
+footer{
+    background-color: white;
+}
+
+h2 {
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 24;
+}
+
+/*rikainasi pakuri*/
+.sidebar { 
+    float: left;
+    margin:0px 0% 0 1%; 
+    padding: 0.5em 1em;
+    width: 20%;
+    font-size: 20px;
+    background: rgb(241, 230, 230);
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+/*rikainasi pakuri*/
+.main { 
+    margin:20px 0% 100px 30%;
+    padding: 0.5em 1em;
+    width: 100%;
+    background: rgb(241, 230, 230);
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+a:hover {
+    color: #F66496;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.Past_paper ul li {
+    font-size: 20px;
+    border-bottom: 1px solid #F68496;
+}
+
+.Bulletin_board ul {
+    margin-left: 30px;
+}
+
+.Bulletin_board ul li {
+    font-size: 15px;
+}
